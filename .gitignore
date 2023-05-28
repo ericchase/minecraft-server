@@ -1,0 +1,9 @@
+*
+!.gitignore
+!/world/
+!/world/**/*
+!eula.txt
+!ngrok-server.bat
+!server.properties
+!start-server.bat
+!usercache.json
