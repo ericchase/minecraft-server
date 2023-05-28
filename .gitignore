@@ -4,6 +4,7 @@
 !/world/**/*
 !eula.txt
 !ngrok-server.bat
+!README.md
 !server.properties
 !start-server.bat
 !usercache.json
