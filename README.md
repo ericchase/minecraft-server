@@ -3,4 +3,7 @@ Download Server
 
 Run
 - `java -jar server.jar nogui`
-    - or use `start-server.bat`
+
+Clone Repo
+
+Run Again
