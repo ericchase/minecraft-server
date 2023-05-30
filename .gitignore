@@ -7,4 +7,5 @@
 !README.md
 !server.properties
 !start-server.bat
+!start-server.sh
 !usercache.json
