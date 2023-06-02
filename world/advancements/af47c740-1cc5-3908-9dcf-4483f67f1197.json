@@ -14,6 +14,7 @@
       "minecraft:dark_forest": "2023-05-25 00:32:11 -0500",
       "minecraft:sparse_jungle": "2023-05-27 00:27:21 -0500",
       "minecraft:river": "2023-05-25 00:37:57 -0500",
+      "minecraft:lukewarm_ocean": "2023-05-31 22:10:39 -0500",
       "minecraft:stony_shore": "2023-05-25 20:19:09 -0500",
       "minecraft:dripstone_caves": "2023-05-29 03:34:47 -0500",
       "minecraft:cold_ocean": "2023-05-25 00:25:39 -0500",
@@ -23,6 +24,7 @@
       "minecraft:ocean": "2023-05-25 00:25:36 -0500",
       "minecraft:jungle": "2023-05-28 03:04:11 -0500",
       "minecraft:old_growth_birch_forest": "2023-05-25 00:24:44 -0500",
+      "minecraft:savanna": "2023-05-31 22:14:52 -0500",
       "minecraft:plains": "2023-05-27 00:17:05 -0500"
     },
     "done": false
@@ -693,6 +695,7 @@
       "apple": "2023-05-25 00:45:23 -0500",
       "cooked_cod": "2023-05-28 22:44:45 -0500",
       "poisonous_potato": "2023-05-28 01:21:16 -0500",
+      "pumpkin_pie": "2023-05-31 10:50:55 -0500",
       "pufferfish": "2023-05-28 09:06:15 -0500",
       "bread": "2023-05-25 20:08:33 -0500",
       "rotten_flesh": "2023-05-25 00:35:37 -0500",
@@ -2710,7 +2713,8 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
-      "minecraft:crimson_forest": "2023-05-28 01:12:50 -0500"
+      "minecraft:crimson_forest": "2023-05-28 01:12:50 -0500",
+      "minecraft:nether_wastes": "2023-05-31 22:26:19 -0500"
     },
     "done": false
   },
@@ -3632,21 +3636,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/red_dye_from_beetroot": {
+  "minecraft:recipes/redstone/lectern": {
     "criteria": {
-      "has_beetroot": "2023-05-29 03:33:06 -0500"
+      "has_book": "2023-05-29 02:14:57 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2023-05-29 02:14:57 -0500"
     },
     "done": true
   },
   "minecraft:recipes/redstone/jungle_trapdoor": {
     "criteria": {
       "has_planks": "2023-05-29 02:16:57 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/beetroot_soup": {
-    "criteria": {
-      "has_beetroot": "2023-05-29 03:33:06 -0500"
     },
     "done": true
   },
@@ -3662,12 +3666,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/lectern": {
-    "criteria": {
-      "has_book": "2023-05-29 02:14:57 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/jungle_fence": {
     "criteria": {
       "has_planks": "2023-05-29 02:16:57 -0500"
@@ -3677,12 +3675,6 @@
   "minecraft:recipes/redstone/jungle_pressure_plate": {
     "criteria": {
       "has_planks": "2023-05-29 02:16:57 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/writable_book": {
-    "criteria": {
-      "has_book": "2023-05-29 02:14:57 -0500"
     },
     "done": true
   },
@@ -3707,6 +3699,96 @@
   "minecraft:recipes/redstone/jungle_fence_gate": {
     "criteria": {
       "has_planks": "2023-05-29 02:16:57 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2023-05-29 03:33:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2023-05-29 03:33:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2023-05-31 06:10:36 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2023-05-31 09:52:24 -0500"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2023-05-31 09:52:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2023-05-31 09:52:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2023-05-31 09:52:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2023-05-31 09:52:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2023-05-31 10:31:40 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2023-05-31 10:48:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2023-05-31 10:52:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2023-05-31 10:52:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2023-05-31 12:06:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2023-05-31 23:11:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2023-05-31 22:25:20 -0500"
     },
     "done": true
   },
