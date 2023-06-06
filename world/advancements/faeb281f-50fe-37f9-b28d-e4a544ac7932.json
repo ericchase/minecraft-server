@@ -14,7 +14,8 @@
       "minecraft:forest": "2023-05-25 00:14:05 -0500",
       "minecraft:lush_caves": "2023-05-25 18:00:36 -0500",
       "minecraft:ocean": "2023-05-25 00:43:21 -0500",
-      "minecraft:old_growth_birch_forest": "2023-05-25 00:24:23 -0500"
+      "minecraft:old_growth_birch_forest": "2023-05-25 00:24:23 -0500",
+      "minecraft:plains": "2023-06-02 18:55:22 -0500"
     },
     "done": false
   },
@@ -237,7 +238,9 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2023-05-25 19:28:13 -0500",
+      "minecraft:hoglin": "2023-06-02 19:19:08 -0500",
       "minecraft:creeper": "2023-05-25 18:04:34 -0500",
+      "minecraft:piglin": "2023-06-02 19:16:56 -0500",
       "minecraft:zombie": "2023-05-25 00:30:51 -0500"
     },
     "done": false
@@ -748,6 +751,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "porkchop": "2023-06-02 19:19:33 -0500",
       "bread": "2023-05-26 23:49:07 -0500",
       "rotten_flesh": "2023-05-25 17:58:43 -0500",
       "glow_berries": "2023-05-25 18:00:51 -0500"
@@ -1859,9 +1863,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/stone_brick_wall": {
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
     "criteria": {
-      "has_stone_bricks": "2023-05-27 01:51:09 -0500"
+      "has_kelp": "2023-05-27 01:35:15 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2023-05-27 01:36:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2023-05-27 01:36:02 -0500"
     },
     "done": true
   },
@@ -1871,27 +1887,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
-    "criteria": {
-      "has_kelp": "2023-05-27 01:35:15 -0500"
-    },
-    "done": true
-  },
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:crimson_forest": "2023-05-27 02:15:23 -0500"
-    },
-    "done": false
-  },
-  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+  "minecraft:recipes/decorations/stone_brick_wall": {
     "criteria": {
       "has_stone_bricks": "2023-05-27 01:51:09 -0500"
     },
     "done": true
   },
-  "minecraft:nether/root": {
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
     "criteria": {
-      "entered_nether": "2023-05-27 02:15:23 -0500"
+      "has_stone_bricks": "2023-05-27 01:51:09 -0500"
     },
     "done": true
   },
@@ -1913,12 +1917,6 @@
     },
     "done": true
   },
-  "minecraft:story/enter_the_nether": {
-    "criteria": {
-      "entered_nether": "2023-05-27 02:15:23 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_brick_stairs": {
     "criteria": {
       "has_stone_bricks": "2023-05-27 01:51:09 -0500"
@@ -1931,21 +1929,15 @@
     },
     "done": true
   },
-  "minecraft:story/form_obsidian": {
-    "criteria": {
-      "obsidian": "2023-05-27 01:36:02 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
     "criteria": {
       "has_tag": "2023-05-27 01:51:09 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/misc/pumpkin_seeds": {
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
     "criteria": {
-      "has_pumpkin": "2023-05-27 02:14:27 -0500"
+      "has_stone_bricks": "2023-05-27 01:51:09 -0500"
     },
     "done": true
   },
@@ -1955,15 +1947,57 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/enchanting_table": {
+  "minecraft:recipes/misc/pumpkin_seeds": {
     "criteria": {
-      "has_obsidian": "2023-05-27 01:36:02 -0500"
+      "has_pumpkin": "2023-05-27 02:14:27 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+  "minecraft:nether/explore_nether": {
     "criteria": {
-      "has_stone_bricks": "2023-05-27 01:51:09 -0500"
+      "minecraft:crimson_forest": "2023-05-27 02:15:23 -0500"
+    },
+    "done": false
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2023-05-27 02:15:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2023-05-27 02:15:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2023-06-02 19:03:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_boots": "2023-06-02 19:26:36 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_boots": "2023-06-02 19:26:36 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2023-06-02 19:03:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2023-06-02 18:54:30 -0500"
     },
     "done": true
   },
